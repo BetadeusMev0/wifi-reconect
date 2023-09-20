@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sNwn7RdTfLK8me/MRqScYUtziP7DV+wOk8GbqMnDY/DRss5GFphQiY+r45RcU7i9gGsGoHNYuDr5tRsiUSiWzQ==",
+  "success": true,
+  "projectFilePath": "E:\\VS PROJECT\\Wifi reconect\\Wifi reconect\\Wifi reconect.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wlade\\.nuget\\packages\\simplewifi.netstandard\\2.0.0\\simplewifi.netstandard.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

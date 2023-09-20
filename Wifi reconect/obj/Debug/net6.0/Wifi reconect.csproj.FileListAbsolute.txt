@@ -1,0 +1,17 @@
+E:\VS PROJECT\Wifi reconect\Wifi reconect\bin\Debug\net6.0\Wifi reconect.exe
+E:\VS PROJECT\Wifi reconect\Wifi reconect\bin\Debug\net6.0\Wifi reconect.deps.json
+E:\VS PROJECT\Wifi reconect\Wifi reconect\bin\Debug\net6.0\Wifi reconect.runtimeconfig.json
+E:\VS PROJECT\Wifi reconect\Wifi reconect\bin\Debug\net6.0\Wifi reconect.dll
+E:\VS PROJECT\Wifi reconect\Wifi reconect\bin\Debug\net6.0\Wifi reconect.pdb
+E:\VS PROJECT\Wifi reconect\Wifi reconect\bin\Debug\net6.0\SimpleWifi.dll
+E:\VS PROJECT\Wifi reconect\Wifi reconect\obj\Debug\net6.0\Wifi reconect.csproj.AssemblyReference.cache
+E:\VS PROJECT\Wifi reconect\Wifi reconect\obj\Debug\net6.0\Wifi reconect.GeneratedMSBuildEditorConfig.editorconfig
+E:\VS PROJECT\Wifi reconect\Wifi reconect\obj\Debug\net6.0\Wifi reconect.AssemblyInfoInputs.cache
+E:\VS PROJECT\Wifi reconect\Wifi reconect\obj\Debug\net6.0\Wifi reconect.AssemblyInfo.cs
+E:\VS PROJECT\Wifi reconect\Wifi reconect\obj\Debug\net6.0\Wifi reconect.csproj.CoreCompileInputs.cache
+E:\VS PROJECT\Wifi reconect\Wifi reconect\obj\Debug\net6.0\Wifi reconect.csproj.CopyComplete
+E:\VS PROJECT\Wifi reconect\Wifi reconect\obj\Debug\net6.0\Wifi reconect.dll
+E:\VS PROJECT\Wifi reconect\Wifi reconect\obj\Debug\net6.0\refint\Wifi reconect.dll
+E:\VS PROJECT\Wifi reconect\Wifi reconect\obj\Debug\net6.0\Wifi reconect.pdb
+E:\VS PROJECT\Wifi reconect\Wifi reconect\obj\Debug\net6.0\Wifi reconect.genruntimeconfig.cache
+E:\VS PROJECT\Wifi reconect\Wifi reconect\obj\Debug\net6.0\ref\Wifi reconect.dll
