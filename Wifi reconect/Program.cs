@@ -5,9 +5,9 @@ namespace wifi_reconect
 {
     class Program 
     {
-        static string path = "C:\\Users\\wlade\\Documents\\CS_Logs\\wifiLog.txt";
+        static string path = "E:\\CS_LOGS\\wifiLog.txt";
         static Wifi wf = new Wifi();
-
+        static string wf_name;
 
         static AccessPoint acl;
 
@@ -17,7 +17,8 @@ namespace wifi_reconect
             Timer timer = new Timer(tm, 2, 500, 300000); //600000
 
             refresh_wifi_status();
-
+            wf_name = acl.Name;
+            Console.WriteLine(acl.Name);
             Console.WriteLine(wf.ConnectionStatus);
             Console.WriteLine(acl.SignalStrength);
             Console.Read();
@@ -25,6 +26,7 @@ namespace wifi_reconect
         public static void loging(object obj) 
         {
             string status = getstatus();
+            Console.WriteLine(status);
             File.AppendAllTextAsync(path, status);
         }
         public static string getstatus() 
@@ -42,13 +44,18 @@ namespace wifi_reconect
             status += "-";
             if (!conecct) 
             {
-                status += "reconect";
-                wf.Disconnect();
-                Thread.Sleep(10000);
-                acl.Connect(new AuthRequest(acl));
-                Console.WriteLine(status);
+                if (wf_name == acl.Name)
+                {
+                    status += "reconect";
+                    wf.Disconnect();
+                    Thread.Sleep(10000);
+                    acl.Connect(new AuthRequest(acl));
+                }
             }
             else status += "stay";
+            status += '-';
+            if (wf_name == acl.Name) status += '1';
+            else status += '0';
             status += '\n';
             
             return status;
